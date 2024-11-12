@@ -170,7 +170,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "wezterm", NULL };
 static const char scratchpadname[] = "scratchpad";
 static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", NULL };
-static const char *roficmd[] = { "rofi", "-show", "drun", "&", ">>", "/tmp/rofi.log" };
+static const char *roficmd[] = { "rofi", "-show", "drun", "-show-icons", "&", ">>", "/tmp/rofi.log" };
 // static const char *rofitmuxcmd[] = { "tmux-project-switcher-rofi", "&", ">>", "/tmp/rofi.log"};
 
 static const char screenshotscript[] = "/home/steven/.local/scripts/screenshot.sh";
